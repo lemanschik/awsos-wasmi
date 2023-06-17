@@ -26,4 +26,7 @@ is also used in our hash-wasm lib which leads to high package and bundler toolin
 to ship wasm. 
 
 Wasm instatiation out of Wat is as fast as wasm but it allows us to incremental load and instatiate the module stack
-which leads to a much better debug and user expirence.
+which leads to a much better debug and user expirence. We can do so was we control already the scriptable environment
+that instantates the wasm modules. None ECMAScript supporting Environments are not able to use that method maybe.
+
+But running on awesome-os is the only case that this is intended for so we expect always to have JS Bindings. 
