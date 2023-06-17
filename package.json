@@ -40,6 +40,7 @@
     "@rollup/plugin-typescript": "^10.0.1",
     "@rollup/plugin-url": "^8.0.1",
     "@wasm-tool/wasm-pack-plugin": "1.6.0",
+    "puppeteer-core": "npm:pupetter-core@latest",
     "cross-env": "~7.0.3",
     "eslint": "~7.18.0",
     "jest": "^27.3.1",
