@@ -1,5 +1,8 @@
-## build-wasm
+## awsos WebAssembly Module Interface
 Is a Component Kit for awesome-os AwesomeOS using a wasmer compatible stack.
+The WASMI is using the same Methods but all methods do also got a Additional methodNameStream()
+Method to get the result in a streaming fashion without using the main thread to allow better low level
+zero copy scenarios.
 
 ## Run in gui mode
 This will get you up and running inside chromium which ships with this Component Kit for 
